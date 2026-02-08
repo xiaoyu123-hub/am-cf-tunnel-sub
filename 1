@@ -696,7 +696,7 @@ function getConfigLink(uuid, host, address, port, remarks, proxyip, protType, na
     
     if (host.includes('.workers.dev') || host.includes('pages.dev')) {
         path = `/${host}${path}`;
-        remarks += ' 请用绑定自定义域名访问再订阅！';
+        remarks += '';
     }
 
     const v2 = getv2LinkConfig({ 
